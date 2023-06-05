@@ -8,6 +8,7 @@
 - Avoid using Docker file, but may be necessary to keep it clean
 - Identify Features that should be installed.  Go and Ruby are long on first build
 - Perhaps keep configuration in a Gist
+- Keep Container size down.  Containers.Dev has some tips for this
 
 ## Project
 
