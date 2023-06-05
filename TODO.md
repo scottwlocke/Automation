@@ -17,7 +17,8 @@
 - Add PowerShell function in devcontainer.json
   - What are some good Modules too add
   - Is there a way to Pin version using devcontainer.json or is it just the names?
-  
+  - Adding Oh-My-Posh
+
 ## Project
 
 - Project will focus on Automation
