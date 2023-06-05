@@ -10,6 +10,14 @@
 - Perhaps keep configuration in a Gist
 - Keep Container size down.  Containers.Dev has some tips for this
 
+## VSCode Extensions - Inside Container
+
+- Identify which Extensions are need inside container.
+- Add extensions inside devcontainer.json
+- Add PowerShell function in devcontainer.json
+  - What are some good Modules too add
+  - Is there a way to Pin version using devcontainer.json or is it just the names?
+  
 ## Project
 
 - Project will focus on Automation
