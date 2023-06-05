@@ -40,5 +40,20 @@
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 
-	"postCreateCommand": "git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k && git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting  && git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions && cp .devcontainer/.zshrc $HOME && cp .devcontainer/.p10k.zsh $HOME"
+	"postCreateCommand": "git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k && git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting  && git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions && cp .devcontainer/.zshrc $HOME && cp .devcontainer/.p10k.zsh $HOME",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.powershell",
+				"puppet.puppet-vscode",
+				"redhat.vscode-xml",
+				"redhat.vscode-yaml",
+				"DavidAnson.vscode-markdownlint",
+				"ms-azuretools.vscode-docker",
+				"mhutchie.git-graph",
+				"donjayamanne.githistory",
+				"eamodio.gitlens"
+			]
+		}
+	}
 }
