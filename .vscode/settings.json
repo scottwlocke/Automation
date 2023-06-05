@@ -14,5 +14,6 @@
             "icon": "terminal-powershell"
         }
     },
-    "terminal.integrated.defaultProfile.linux": "thispwsh"
+    "terminal.integrated.defaultProfile.linux": "thispwsh",
+    "editor.fontFamily": "MesloLGS NF"
 }
